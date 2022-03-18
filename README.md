@@ -4,7 +4,7 @@
 ##There are three functions:
 
 **1**
-CheckAuthorisation(token string) (*User, error)
+##CheckAuthorisation(token string) (*User, error)
 To check if user is authenticated
 
 type User struct {
@@ -17,7 +17,7 @@ type User struct {
 }
 
 **2**
-VerifyID(id string) (*User, error)
+##VerifyID(id string) (*User, error)
 To know if the user exist it return user struct or nil 
 
 type User struct {
@@ -31,7 +31,7 @@ type User struct {
 
 
 **3**
-GetRole(id string) (*Role, error)
+##GetRole(id string) (*Role, error)
 To get role based on his name. It return role struct or nil
 
 type Role struct {
