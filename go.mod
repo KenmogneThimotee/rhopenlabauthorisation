@@ -1,4 +1,4 @@
-module authorisation
+module authorisations
 
 go 1.17
 
