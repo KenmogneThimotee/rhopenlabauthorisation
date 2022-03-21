@@ -1,4 +1,4 @@
-module authorisations
+module github.com/KenmogneThimotee/rhopenlabauthorisation
 
 go 1.17
 
